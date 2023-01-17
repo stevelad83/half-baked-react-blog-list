@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getBlogs } from '../services/blogs.js';
 
-export default function useBlogs() {
+export function useBlogs() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
