@@ -1,5 +1,6 @@
 import React from 'react';
 import { getBlogs } from '../../services/blogs.js';
+import { BlogCard } from '../BlogCard/BlogCard.js';
 
 //use custom hook, map through blog list and render Blogcard component for each
 export default function Main() {
@@ -8,7 +9,7 @@ export default function Main() {
   return (
     <main>
       {blogs.map((blog) => (
-        <Blog key={blog.id} {...blog} />
+        <BlogCard key={blog.id} {...blog} />
       ))}
     </main>
   );
