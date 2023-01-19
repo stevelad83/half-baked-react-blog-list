@@ -1,7 +1,5 @@
 # Making a List of Blogs
 
-### Getting Started
-
 _Use [this repository](https://github.com/alchemycodelab/react-blog-list) as a template for this deliverable._
 Environment variables have been provided for you because we will all be using the same supabase database. Remove the `.example` from .`env.development.local.example` and `.env.test.local.example`
 
